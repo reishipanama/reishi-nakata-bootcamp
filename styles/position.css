@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.navigation{
+    background-color: darkseagreen;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+
+    
+}
+
+.navigation h1{
+    position: relative;
+    left: 10%;
+    width: 90%;
+
+}
+
+.announcement{
+    background-color: darkolivegreen;
+    height: 400px;
+    position: relative;
+    z-index: 1;
+    margin-top: 70px;
+
+
+}
+
+.announcement h2{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: white;
+    text-transform: capitalize;
+    font-size: 60px;
+    font-family: impact;
+    letter-spacing: 3px;
+
+
+}
+
+.main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 0;
+}
+
+.main p{
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+
+
+
+
+

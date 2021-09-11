@@ -1,0 +1,27 @@
+table, th, td{
+    border: 2px width="500px";
+    border-spacing: 50px 30px;
+}
+div{
+    width: 50%;
+    height: 300px;
+    border: 1px solid red;
+    padding: 10px;
+}
+p{
+    text-align: center;
+    border: 1px solid black;
+    margin: 0px;
+    clear: right;
+}
+#image1{
+    height: 100px;
+    width: 110px;
+    /* float: right; */
+    clear: none;
+}
+#image2{
+    height: 100px;
+    width: 110px;
+    float: right;
+}

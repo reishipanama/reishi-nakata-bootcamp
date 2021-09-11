@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="">
+        <label for="frist-name">Frist Name</label>
+        <input type="text" name="first_name" id="frist-name" required>
+        <br><br>
+        <label for="lable-name">Last Name</label>
+        <input type="text" name="" id="last-name"required>
+        <br><br>
+        <label for="age">age</label>
+        <input type="number" name="age" id="age" min="1" max="60">
+        <br><br>
+        <label for="password">Passsword</label>
+        <input type="password" name="" id="password" minlength="8" maxlength="15">
+        <br><br>
+        <label for="date-of-birth">Date of birth</label>
+        <input type="date" name="date_of_birth" id="date-of-birth" min="2021-08-29" max="2021-12-31">
+        <br><br>
+        <label for="work-email">Email for work</label>
+        <input type="email" name="work_email" id="work-email" placeholder="john@gmail.com">
+        <br><br>
+        <label for="comment">Comment</label>
+        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+        <br><br>
+        <p>Size of shirt</p>
+        <input type="radio" name="shirt_size" id="sm" value="Small">
+        <label for="sm">Small</label>
+        <br>
+        <input type="radio" name="shirt_size" id="md" value="Midium">
+        <label for="md">Midium</label>
+        <br>
+        <input type="radio" name="shirt_size" id="lg" value="Large">
+        <label for="lg">Large</label>
+        <br><br>
+
+        <p>Hobbies</p>
+        <input type="checkbox" name="hobbies" id="sing" value="singing">
+        <label for="singing">Singing</label>
+        <br>
+        <input type="checkbox" name="hobbies" id="dancing" value="dancing">
+        <label for="dancing">Dancing</label>
+        <br>
+        <input type="checkbox" name="hobbies" id="paiting" value="paiting">
+        <label for="paiting">Paiting</label>
+        <br><br>
+
+        <input type="checkbox" name="Agree" id="agree" value="agree" required>
+        <label for="Agree">I agree to the term and the condition</label>
+        <br><br>
+
+        <label for="major">What is your major in college?</label>
+        <select name="major" id="major">
+            <option value="" hidden>Select Major</option>
+            <option value="English">English</option>
+            <option value="Math">Math</option>
+            <option value="Science">Science</option>
+        </select>
+        <br><br>
+        <label for="Profile-picture">Profile picture</label>
+        <input type="file" name="profile_picture" id="profile-picture">
+
+        <br><br>
+        <input type="submit" value="Send" name="btn_send">
+
+        <!-- <button type="submit">rejoareaoj</button> -->
+       
+        <input type="image" src="login-button.png" alt="login-button" height="30" width="">
+        
+
+
+    </form>
+    
+</body>
+</html>

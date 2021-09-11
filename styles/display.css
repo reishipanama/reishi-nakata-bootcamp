@@ -1,0 +1,22 @@
+h1{
+    width: 50%;
+
+}
+p{
+    display: inline;
+}
+label{
+    background-color: aquamarine;
+    display: inline-block;
+    width: 400px;
+    height: 100px;
+}
+
+a{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: darkcyan;
+    color: white;
+    
+}
